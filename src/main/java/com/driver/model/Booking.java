@@ -76,4 +76,16 @@ public class Booking {
     public void setAmountToBePaid(int amountToBePaid) {
         this.amountToBePaid = amountToBePaid;
     }
+
+    @Override
+    public String toString() {
+        return "Booking{" +
+                "bookingId='" + bookingId + '\'' +
+                ", bookingAadharCard=" + bookingAadharCard +
+                ", noOfRooms=" + noOfRooms +
+                ", bookingPersonName='" + bookingPersonName + '\'' +
+                ", hotelName='" + hotelName + '\'' +
+                ", amountToBePaid=" + amountToBePaid +
+                '}';
+    }
 }
